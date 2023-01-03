@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+    <script src = "js/test.js"></script>
+    <link rel = "stylesheet" href="/js/css/style.css">
+<body>
+    <p>Please submit your music here</p>
+
+    <div>
+        <form action = "nothing.php">
+            <label for = "First Name">First Name</label>
+            <input type = "text" id = "fname" name = "firstname" placeholder="Type your First name" >
+
+            <label for = "Last Name">Last Name</label>
+            <input type = "text" id = "lname" name = "lastname" placeholder="Type your Last name" >
+
+            <label for = "Stage Name">Stage Name</label>
+            <input type = "text" id = "sname" name = "stagename" placeholder="Type your Stage name" >
+
+            <label for = "StreamingPlatform">Streaming Platform</label>
+            <select name = "StreamingPlatform" id = "streamingPlatform">
+                <option value = "Spotify">Spotify</option>
+                <option value = "Apple Music">Apple Music</option>
+                <option value = "Youtube Music">Youtube Music</option>
+            </select>
+            <label for = "Link">Link to your music</label>
+            <input type = "text" id = "link" name = "link" placeholder="Submit your music link here" >
+
+            <input type = "button" value = "Submit" onclick="showtext()">
+        </form>
+        <div id = "show" class = "showtxt">
+
+        </div>
+    </div>
+</body>
+</html>
